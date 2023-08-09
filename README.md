@@ -1,34 +1,31 @@
-# Introducción a Express.js
+# Introduction to Express.js
 
 <img src="img/programate-academy.png" alt="Logo Programate">
 
-## Objetivo
+## Objective
 
-vamos a desaroolar una API conectada a mongoDB, para complementar el tutorial de [Angular](https://angular.io/tutorial/tour-of-heroes) y poder tener un proyecto fullstack usando el stack MEAN
+We are going to develop an API connected to mongoDB, to complement the [Angular](https://angular.io/tutorial/tour-of-heroes) tutorial and to be able to have a fullstack project using the MEAN stack
 
-## primeros pasos
-Recuerda debes tener instalado [Node.js](https://nodejs.org/en/download), despues crea y entra a la carpeta donde vas a guardar el proyecto. Una vez clones el repositorio recuerda entrar ala carpeta con
+## First Steps
+
+Remember you must have [Node.js](https://nodejs.org/en/download) installed, then create and enter the folder where you are going to save the project. Once you clone the repository remember to enter the folder with
 ```
 cd node-basic-c9
 ```
-y instala los paquetes usando el comando:
+and install the packages using the command:
 ```
-npm i
+npm install
 ```
 
-## Levantar el Servidor
+## Run the server
 
-
-
-Para levantar el servidor vamos a correr el siguiente comando en una consola al nivel del index.js
+To start the server we are going to run the following command in a console at the index.js level
 ```
 node index.js
 ```
+## Documentation de MongoDB
 
-
-## Documentación de MongoDB
-
-Van a crear la cuenta, esta es la documentación recomendada para MongoDB, aunque pueden encontrar más en línea.
+They're going to create the account, this is the recommended documentation for MongoDB, although you can find more online.
 
 * [Quick Start](https://www.mongodb.com/docs/drivers/node/current/quick-start/#quick-start) 
 * [Download and Install](https://www.mongodb.com/docs/drivers/node/current/quick-start/download-and-install/)
@@ -40,41 +37,41 @@ Van a crear la cuenta, esta es la documentación recomendada para MongoDB, aunqu
 
 * [Express Tutorial Part 3: Using a Database (with Mongoose)]c
 
-## Variables de entorno
+## Enviroments Variables
 
-Las variables de entorno son valores que se configuran en el sistema operativo y que pueden ser accedidos por las aplicaciones en tiempo de ejecución. En Node.js, puedes acceder a estas variables a través del objeto 'dotenv'.
+Environment variables are values ​​that are set in the operating system and can be accessed by applications at run time. In Node.js, you can access these variables through the 'dotenv' object..
 
 
-1. Crea un archivo .env en el directorio raíz de tu proyecto.
+1. Create an .env file in the root directory of your project.
 
-2. Dentro de .env, define tus variables de entorno por ejemplo:
+2. Inside the .env, define your environment variables for example:
 
 ```
 MONGO_DB_URI = `12lkjefoaih1209`
 ```
-## Endpoints disponibles
+## Endpoints available
 
-Finalmente probamos los enpoints:
+Finally we test the enpoints:
 
 #### Postman Get Authors
 ```
-loclahost:3005/api/hero/
+localhost:3005/api/hero/
 ```
-#### Get AutorFor Id
+#### Get Hero For Id
 ```
-loclahost:3005/api/hero/:id
+localhost:3005/api/hero/:id
 ```
 
-#### Get AutorFor Id
+#### Get Hero For Id
 ```
-loclahost:3005/api/hero/:id
+localhost:3005/api/hero/:id
 ```
-#### Update Autor
+#### Update Hero
 Verbo patch
 ```
-loclahost:3005/api/hero/update/:id
+localhost:3005/api/hero/update/:id
 ```
-con el siguiente esquema de json
+with the following scheme of json
 ```
 {
     "first_name:"Capitan Python",
@@ -83,11 +80,11 @@ con el siguiente esquema de json
 }
 ```
 
-#### Create Autor
+#### Create Hero
 ```
 loclahost:3005/api/hero/create/:id
 ```
-con el siguiente esquema de json
+with the following scheme of json
 ```
 {
     "first_name:"Capitan Python",
@@ -95,16 +92,16 @@ con el siguiente esquema de json
     "hp":50,
 }
 ```
-#### Delete Autor
+#### Delete Hero
 ```
 loclahost:3005/api/hero/delete/:id
 ```
 
 
 
-## Contacto
+## Contact
 
-Si tienes alguna pregunta, sugerencia o deseas obtener el workbook para desarrollar este proyecto, no dudes en contactarme a través de: [diego.aguirre.9805@gmail.com](diego.aguirre.9805@gmail.com).
+If you have any questions, suggestions or want to obtain the workbook to develop this project, do not hesitate to contact me through: [diego.aguirre.9805@gmail.com](diego.aguirre.9805@gmail.com).
 
 # node-basic-c9
 # node-super-hero

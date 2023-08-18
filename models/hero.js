@@ -23,4 +23,4 @@ const HeroSchema = new Schema ({
     // date_of_death: { type: Date },
 })
 
-module.exports = mongoose.model('Hero', AuthorSchema)
+module.exports = mongoose.model('Hero', HeroSchema)
